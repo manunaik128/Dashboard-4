@@ -1,81 +1,78 @@
-.main{
+.main {
     width: 100%;
     display: flex;
     height: 700px;
     border: 2px solid black;
 }
 
-.left{
+.left {
     display: flex;
     flex-direction: column;
     background-color: white;
     /* width: 15%; */
     row-gap: 25px;
     flex: 1;
-   
-
 }
 
-.logo{
+.logo {
     display: flex;
     gap: 10px;
     padding: 10px 10px;
 }
-.logo img{
+
+.logo img {
     width: 40px;
 }
 
-#logo-name{
+#logo-name {
     color: rgb(77, 113, 180);
     margin-top: 20px;
 }
 
-.left-options{
+.left-options {
     display: flex;
     padding: 10px 15px;
-
 }
 
-.left-options ul{
-     gap: 15px;
-     margin-top: 25px;
+.left-options ul {
+    gap: 15px;
+    margin-top: 25px;
 }
-.left-options ul li{
-  
+
+.left-options ul li {
     list-style: none;
-        margin-top: 25px;
-
-   
+    margin-top: 25px;
 }
 
-.left-options ul li a{
+.left-options ul li a {
     text-decoration: none;
-
 }
 
-.left-options ul li a img{
+.left-options ul li a img {
     width: 15px;
     margin-right: 10px;
 }
 
-.left-options ul #space{
+.left-options ul #space {
     margin-top: 60px;
 }
 
-.end{
+.end {
     display: flex;
     flex-direction: column;
     padding: 0px 15px;
-     justify-content: center;
+    justify-content: center;
 }
-.end-image{
+
+.end-image {
     padding: 0 10px;
 }
-.end-image img{
+
+.end-image img {
     width: 160px;
 }
 
-.end-content{
+.end-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,66 +80,60 @@
     padding-bottom: 15px;
 }
 
-.end-content a{
+.end-content a {
     text-decoration: none;
     color: rgb(77, 113, 180);
     margin-top: 10px;
     font-size: 15px;
 }
 
-.end-content p{
+.end-content p {
     font-size: 12px;
 }
 
-.middle{
+.middle {
     flex: 5;
     display: flex;
     flex-direction: column;
     border-left: 2px solid grey;
-    
 }
 
-.search{
+.search {
     display: flex;
     flex: 0.5;
     background-color: white;
     flex-direction: row;
     padding: 5px 30px;
     justify-content: space-between;
-
 }
 
-.text{
+.text {
     margin-top: 10px;
     width: 70%;
     height: 27px;
     padding: 0px 5px;
     border: 2px solid grey;
-   justify-content: center;
-   background-color: white;
-   border-radius: 5px;
-   margin-left: 15px;
-
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 15px;
 }
 
-.text input{
-   all: unset;
+.text input {
+    all: unset;
 }
 
-.text img{
+.text img {
     width: 15px;
     margin-right: 15px;
     margin-top: 2px;
 }
 
-
-.btn{
-
-    padding: 10px 55px 0 0 ;
-
+.btn {
+    padding: 10px 55px 0 0;
 }
 
-.btn button{
+.btn button {
     width: 140px;
     padding: 6px 0px;
     background-color: rgb(75, 112, 180);
@@ -150,51 +141,91 @@
     border: none;
 }
 
-.btn button img{
+.btn button img {
     width: 15px;
     margin-right: 5px;
-    
 }
 
-.items{
+.items {
     display: flex;
     flex: 0.5;
     background-color: white;
-     padding: 5px 30px;
-       align-items: center;
-       justify-content: space-between;
-   
-
+    padding: 5px 30px;
+    align-items: center;
+    justify-content: space-between;
 }
-.child{
+
+.child {
     width: 120px;
     height: 30px;
     background-color: rgb(212, 212, 212);
     border-radius: 5px;
     padding: 5px 0px 0px 10px;
-    
 }
 
-.child img{
+.child img {
     width: 17px;
     margin-right: 7px;
 }
 
-
-.folders{
-    flex: 2;
-    background-color: blue;
+.midd {
+    display: flex;
+    background-color: white;
+    padding: 10px 10px;
+    gap: 15px;
 }
 
-.files{
+.backup-image {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.image1 img {
+    width: 25px;
+    margin-right: 70px;
+}
+
+.image2 {
+    padding: 5px 0px;
+}
+
+.image2 img {
+    width: 15px;
+}
+
+.folders {
+    flex: 1;
+    width: 130px;
+    height: 100px;
+    background-color: rgb(196, 193, 193);
+    border-radius: 10px;
+}
+
+.folder-name {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.folder-name h6 {
+    color: rgb(8, 136, 221);
+}
+
+.backup-info {
+    padding: 20px 10px;
+}
+
+.backup-info small {
+    color: grey;
+}
+
+.files {
     flex: 4;
     background-color: beige;
 }
 
-
-
-
-.right{
+.right {
     flex: 2;
     background-color: green;
 }
