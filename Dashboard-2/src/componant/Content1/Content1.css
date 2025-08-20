@@ -222,10 +222,162 @@
 
 .files {
     flex: 4;
-    background-color: beige;
+    background-color: aquamarine;
+    display: flex;
+    padding: 10px;
+    gap: 5px;
 }
+
+.name {
+    flex: 1;
+    display: flex;
+    border: 1px solid black;
+    padding: 5px 0px;
+    flex-direction: column;
+}
+
+.name a {
+    margin-top: 30px;
+}
+
+.name img {
+    width: 15px;
+}
+
+.size {
+    flex: 1;
+    display: flex;
+    border: 1px solid black;
+    padding: 5px 0px;
+    flex-direction: column;
+}
+
+.size img {
+    width: 15px;
+}
+
+.size a {
+    margin-top: 20px;
+}
+
+.last-modified {
+    flex: 1;
+    border: 1px solid black;
+}
+
+.members {
+    flex: 1;
+    border: 1px solid black;
+}
+
+
 
 .right {
     flex: 2;
-    background-color: green;
+    /* background-color: green; */
+    display: flex;
+    padding: 5px ;
+    flex-direction: column;
+    border-left: 2px solid grey;
+}
+
+.top{
+    flex: 0.2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notification img{
+    width: 15px;
+}
+
+.profile{
+    display: flex;
+}
+
+.profile img{
+    width: 25px;
+    border-radius: 50%;
+}
+
+.down img{
+    width: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+.storage{
+    flex: 0.8;
+    display: flex;
+    /* background-color:blue; */
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.storage img{
+    width: 200px;
+}
+
+.storage-items{
+    flex: 2;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 40px 10px; */
+}
+
+.items{
+    display: flex;
+    
+}
+
+.details{
+    display: flex;
+    column-gap: 10px;
+}
+
+
+
+.st-image img{
+    width: 20px;
+}
+.st-image {
+    height: 35px;
+    width: 35px;
+    padding: 8px;
+    background-color: rgb(211, 206, 206);
+    border-radius: 5px;
+}
+.st-detail small{
+    color: grey;
+    
+}
+.data{
+   color: rgb(8, 136, 221);
+}
+
+.import{
+    flex: 1;
+    /* background-color: grey; */
+    display: flex;
+     align-items: center; 
+    justify-content: center; 
+}
+
+.import-file{
+    display: flex;
+    flex-direction: column;
+    border: 2px dashed grey;
+    padding: 25px 80px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.import img{
+    width: 35px;
 }
